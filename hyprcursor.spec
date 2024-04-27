@@ -1,5 +1,5 @@
 Name:           hyprcursor
-Version:        0.1.7
+Version:        0.1.8
 Release:        %autorelease
 Summary:        The hyprland cursor format, library and utilities
 
@@ -32,6 +32,7 @@ Development files for %{name}.
 
 %prep
 %autosetup -p1 -a1
+sed 's/0\.1\.7/0.1.8/' -i CMakeLists.txt
 mkdir -p $HOME/.icons
 mv HyprBibataModernClassicSVG $HOME/.icons
 
