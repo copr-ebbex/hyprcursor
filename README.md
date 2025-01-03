@@ -1,3 +1,0 @@
-# hyprcursor
-
-The hyprcursor package
